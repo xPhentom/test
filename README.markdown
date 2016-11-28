@@ -7,6 +7,7 @@ De gekozen test voor dit deel is de Process Cycle Test. Aangezien we dit al eerd
 
 ## Cucumber test
 Voor het project moeten we ook een automated test schrijven in Cucumber. De process Cycle Test heb ik hier dan in toegevoegd.
+
 ![Cucumber test](http://i.imgur.com/4Qb6Fxj.png)
 
 ## Mocking
