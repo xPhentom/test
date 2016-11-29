@@ -1,9 +1,6 @@
-import cucumber.api.java.en.When;
+import webApp.domain.*;
 import org.junit.Test;
-import org.mockito.Mock;
 import org.mockito.Mockito;
-
-import java.util.List;
 
 import static org.mockito.Mockito.*;
 
@@ -23,11 +20,12 @@ public class MockitoTest {
 
         Verhuring verhuring = new Verhuring("test", 1, "5", aanvraag, verhuurder);
 
-        database database = mock(database.class);
+        Database database = mock(Database.class);
 
-        database.Add(verhuring);
+        database.add(verhuring);
 
-        Mockito.verify(database).Add(verhuring);
+        Mockito.verify(database).add(verhuring);
+
 
     }
 
